@@ -1,1 +1,85 @@
 @import 'tailwindcss';
+
+@theme {
+  --color-white: hsl(0, 100%, 100%);
+  --color-black: hsl(0, 0%, 0%);
+  --color-navy-950: hsl(224, 30%, 27%);
+  --color-navy-200: hsl(241, 100%, 89%);
+  --color-navy-50: hsl(221, 100%, 96%);
+  --color-blue-800: hsl(234, 85%, 45%);
+  --color-blue-50: hsl(234, 71%, 97%);
+  --color-yellow-400: hsl(39, 100%, 56%);
+  --color-yellow-50: hsl(39, 100%, 98%);
+  --color-red-400: hsl(0, 100%, 67%);
+  --color-red-50: hsl(0, 100%, 98%);
+  --color-green-500: hsl(166, 100%, 37%);
+  --color-green-50: hsl(162, 63%, 97%);
+
+  --spacing-100: 8px;
+  --spacing-200: 16px;
+  --spacing-300: 24px;
+  --spacing-400: 32px;
+  --spacing-1000: 80px;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-navy-200);
+  }
+}
+
+@utility text-preset-1 {
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 100%;
+  letter-spacing: 0;
+}
+
+@utility text-preset-2 {
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 100%;
+  letter-spacing: 0;
+}
+
+@utility text-preset-3 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 130%;
+  letter-spacing: 0;
+}
+
+@utility text-preset-4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 130%;
+  letter-spacing: 0;
+}
+
+@utility text-preset-5-bold {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 130%;
+  letter-spacing: 0;
+}
+
+@utility text-preset-5-medium {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 130%;
+  letter-spacing: 0;
+}
+
+@utility text-preset-6-bold {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 130%;
+  letter-spacing: 0;
+}
+
+@utility text-preset-6-medium {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 130%;
+  letter-spacing: 0;
+}
