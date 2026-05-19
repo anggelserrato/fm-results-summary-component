@@ -1,6 +1,6 @@
-function ResultsSummary() {
-  return (
-    <div>
+export default function Page() {
+   return (
+    <main className="flex flex-col items-center justify-center border">
       <p>Your Result</p>
       <p>76</p>
       <p>of 100</p>
@@ -18,8 +18,6 @@ function ResultsSummary() {
       <p>Visual</p>
       <p>72 / 100</p>
       <p>Continue</p>
-    </div>
-  );
+    </main>
+   )
 }
-
-export default ResultsSummary;
