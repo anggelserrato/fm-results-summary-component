@@ -1,6 +1,6 @@
-export default function Page() {
-   return (
-    <main className="flex flex-col items-center justify-center border">
+export default function Home() {
+  return (
+    <main className="flex justify-center bg-red-500 p-4 text-white">
       <p>Your Result</p>
       <p>76</p>
       <p>of 100</p>
@@ -19,5 +19,5 @@ export default function Page() {
       <p>72 / 100</p>
       <p>Continue</p>
     </main>
-   )
+  );
 }
