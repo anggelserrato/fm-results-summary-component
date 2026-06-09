@@ -9,7 +9,7 @@ export default function Home() {
           <p className="text-preset-5-bold text-navy-200">Your Result</p>
           <div className="flex h-35 w-35 flex-col items-center justify-center rounded-full bg-linear-to-b from-gradient-1-start to-gradient-1-end/1 md:h-50 md:w-50">
             <p className="text-preset-2 text-white">76</p>
-            <p className="text-preset-6-bold text-navy-200 md:text-preset-5-bold md:text-[1.125rem]">
+            <p className="text-preset-6-bold text-navy-200 opacity-[0.5168] md:text-preset-5-bold md:text-[1.125rem]">
               of 100
             </p>
           </div>
