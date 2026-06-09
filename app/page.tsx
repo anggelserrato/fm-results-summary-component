@@ -4,7 +4,7 @@ import dataJson from './data/data.json';
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center md:bg-blue-50">
-      <section className="flex w-full max-w-md flex-col gap-300 md:mt-[284px] md:grid md:max-w-[686px] md:grid-cols-2 md:gap-0 md:rounded-4xl md:bg-white lg:max-w-[736px]">
+      <section className="flex w-full max-w-md flex-col gap-300 md:mt-[284px] md:grid md:max-w-[686px] md:grid-cols-2 md:gap-0 md:rounded-4xl md:bg-white md:shadow-card lg:max-w-[736px]">
         <div className="flex w-full flex-col items-center gap-300 rounded-b-4xl bg-linear-to-b from-gradient-2-start to-gradient-2-end px-14.25 py-400 shadow-card md:gap-400 md:rounded-4xl md:px-[69px] md:py-[45px] lg:px-[84px]">
           <p className="text-preset-5-bold text-navy-200">Your Result</p>
           <div className="flex h-35 w-35 flex-col items-center justify-center rounded-full bg-linear-to-b from-gradient-1-start to-gradient-1-end/1 md:h-50 md:w-50">
