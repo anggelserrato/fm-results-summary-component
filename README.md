@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+<img width="1920" height="1440" alt="results summary component shots" src="https://github.com/user-attachments/assets/4b19520e-2311-46dc-a1b7-fce07e45237a" />
 
 ### Links
 
