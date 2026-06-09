@@ -38,11 +38,11 @@ export default function Home() {
                       height={20}
                     />
                     <p
-                      className={`mr-auto text-preset-6-medium ${item.color} ml-200`}
+                      className={`mr-auto text-preset-6-medium md:text-preset-5-medium ${item.color} ml-200`}
                     >
                       {item.category}
                     </p>
-                    <p className="items-end text-preset-6-bold text-navy-950">
+                    <p className="items-end text-preset-6-bold text-navy-950 md:text-preset-5-bold md:text-[1.125rem]">
                       {item.score}{' '}
                       <span className="text-navy-950 opacity-[0.5]">/ 100</span>
                     </p>
