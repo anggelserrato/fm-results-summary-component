@@ -14,6 +14,10 @@
   --color-red-50: hsl(0, 100%, 98%);
   --color-green-500: hsl(166, 100%, 37%);
   --color-green-50: hsl(162, 63%, 97%);
+  --color-gradient-1-start: #4d21c9;
+  --color-gradient-1-end: #2521c9;
+  --color-gradient-2-start: #7755ff;
+  --color-gradient-2-end: #2f2ce9;
   --shadow-card: 0 30px 60px 0 rgba(61, 108, 236, 0.15);
   --spacing-100: 0.5rem; /* 8px */
   --spacing-200: 1rem; /* 16px */

@@ -3,15 +3,17 @@ import dataJson from './data/data.json';
 
 export default function Home() {
   return (
-    <main className="m-auto flex min-h-screen flex-col items-center">
-      <section className="flex w-full flex-col gap-300">
-        <div className="flex flex-col items-center gap-300 rounded-b-4xl bg-blue-500 px-14.25 py-400 shadow-card">
+    <main className="flex min-h-screen flex-col items-center">
+      <section className="flex w-full max-w-md flex-col gap-300">
+        <div className="-end flex w-full flex-col items-center gap-300 rounded-b-4xl bg-linear-to-b from-gradient-2-start to-gradient-2-end px-14.25 py-400 shadow-card">
+          {/* from-gradient-1-start to-gradient-1-end */}
           <p className="text-preset-5-bold text-navy-200">Your Result</p>
-          <div className="flex h-35 w-35 flex-col items-center justify-center rounded-full bg-blue-400">
+          <div className="flex h-35 w-35 flex-col items-center justify-center rounded-full bg-linear-to-b from-gradient-1-start to-gradient-1-end/1">
+            {/* from-gradient-2-start to-gradient-2-end */}
             <p className="text-preset-2 text-white">76</p>
             <p className="text-preset-6-bold text-navy-200">of 100</p>
           </div>
-          <div className="flex flex-col items-center justify-center gap-100">
+          <div className="flex flex-col items-center gap-100 text-center">
             <p className="text-preset-4 text-white">Great</p>
             <p className="text-preset-6-medium text-navy-200">
               You scored higher than 65% of the people who have taken these
@@ -49,7 +51,7 @@ export default function Home() {
               ))}
             </div>
           </div>
-          <button className="w-full rounded-full bg-navy-950 px-4 py-3 text-preset-5-bold text-white">
+          <button className="w-full rounded-full bg-navy-950 from-gradient-2-start to-gradient-2-end py-4 text-preset-5-bold text-white hover:bg-linear-to-b">
             Continue
           </button>
         </div>
